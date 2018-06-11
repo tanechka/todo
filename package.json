@@ -8,8 +8,8 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts-with-stylus start src/App.styl",
-    "build": "react-scripts-with-stylus build src/App.styl",
+    "start": "react-scripts-with-stylus start src/index.styl",
+    "build": "react-scripts-with-stylus build src/index.styl",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
