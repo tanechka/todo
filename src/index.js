@@ -5,9 +5,10 @@ import App from './app/containers/App';
 import { render } from 'react-dom';
 import { createStore } from 'redux';
 
+let toDo =  (state = [], action) => state;
 
-const store = createStore();
-​
+const store = createStore(toDo);
+
 render (
     <Provider store={store}>
         <App />
