@@ -1,9 +1,9 @@
 import React from 'react';
 
 const LeftBar = () =>  (
-    <aside>
-        list
-    </aside>
+  <aside>
+    list
+  </aside>
 );
 
 export default LeftBar;
